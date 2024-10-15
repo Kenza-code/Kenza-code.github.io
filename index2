@@ -1,58 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Portfolio</title>
+    <title>Portfolio - Tonnom</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Bienvenue sur mon portfolio</h1>
+        <h1>Tonnom</h1>
+        <p>Étudiant en Master 2 - Ingénierie en Intelligence Artificielle</p>
+        <nav>
+            <ul>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#experience">Expériences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    
+
+    <section id="about">
+        <h2>À propos de moi</h2>
+        <p>Passionné(e) par l'intelligence artificielle et les sciences des données, je recherche une alternance dans le domaine de l'IA et la data science.</p>
+    </section>
+
     <section id="projects">
         <h2>Projets</h2>
-
-        <!-- Projet 1: Analyse des données électorales avec Tableau -->
-        <article class="project">
-            <h3>Projet 1 : Analyse des données électorales avec Tableau</h3>
-            <p>
-                Dans ce projet, j'ai analysé les données électorales des États-Unis en utilisant Tableau. 
-                Voici les étapes suivies :
-            </p>
-            <ol>
-                <li>Importation des données et nettoyage.</li>
-                <li>Création de tableaux de bord dynamiques pour visualiser les résultats électoraux par état.</li>
-                <li>Analyse des tendances électorales par année.</li>
-                <li>Présentation des résultats dans un rapport.</li>
-            </ol>
-            <p>Voici une capture d'écran du tableau de bord :</p>
-            <img src="images/election_dashboard.png" alt="Tableau de bord électoral" class="project-image">
-        </article>
-
-        <!-- Projet 2: Modélisation des données climatiques avec R -->
-        <article class="project">
-            <h3>Projet 2 : Modélisation des données climatiques avec R</h3>
-            <p>
-                Ce projet portait sur la modélisation des données climatiques pour la prévision du pic d'ozone en utilisant R.
-                Les étapes suivies étaient les suivantes :
-            </p>
-            <ol>
-                <li>Collecte des données climatiques et nettoyage des données.</li>
-                <li>Exploration des variables les plus pertinentes pour la prévision.</li>
-                <li>Application de modèles de régression linéaire et d'arbres de décision.</li>
-                <li>Évaluation des modèles et interprétation des résultats.</li>
-            </ol>
-            <p>Voici une capture d'écran du graphique de la prévision :</p>
-            <img src="images/climate_forecast.png" alt="Graphique de prévision climatique" class="project-image">
-        </article>
-
-        <!-- Ajout d'autres projets ici -->
+        <div class="project-card">
+            <h3>Prévision du pic d'ozone</h3>
+            <p>Utilisation de techniques de machine learning pour la prévision du pic d'ozone. <a href="#">Voir le projet sur GitHub</a></p>
+        </div>
+        <!-- Ajoute d'autres projets ici -->
     </section>
-    
+
+    <section id="skills">
+        <h2>Compétences</h2>
+        <ul>
+            <li>Python, R, SQL</li>
+            <li>Sklearn, Keras</li>
+            <li>Tableau, ggplot2</li>
+        </ul>
+    </section>
+
+    <section id="experience">
+        <h2>Expériences</h2>
+        <p>Aucune expérience professionnelle pour le moment, mais de nombreux projets académiques réalisés.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email : <a href="mailto:tonemail@gmail.com">tonemail@gmail.com</a></p>
+        <p><a href="https://www.linkedin.com/in/tonlinkedin/">LinkedIn</a> | <a href="https://github.com/tongithub">GitHub</a></p>
+    </section>
+
     <footer>
-        <p>© 2024 Mon Portfolio - Tous droits réservés</p>
+        <p>&copy; 2024 Tonnom</p>
     </footer>
 </body>
 </html>
